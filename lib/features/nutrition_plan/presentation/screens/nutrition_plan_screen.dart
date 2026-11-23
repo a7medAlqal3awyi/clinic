@@ -155,7 +155,7 @@ class _NutritionPlanScreenState extends State<NutritionPlanScreen> {
                   borderRadius: BorderRadius.circular(20.r),
                 ),
                 child: Text(
-                  '${(plan.completionPercentage * 100).toInt()}% Done',
+                  '${(plan.completionPercentage * 100).toInt()}% ${context.tr(AppStrings.donePercent)}',
                   style: TextStyle(
                     color: colors.primary,
                     fontWeight: FontWeight.bold,
@@ -181,7 +181,7 @@ class _NutritionPlanScreenState extends State<NutritionPlanScreen> {
               ),
               SizedBox(width: 8.w),
               Text(
-                'Consumed: ${plan.consumedCalories} kcal',
+                '${context.tr(AppStrings.consumedWithColon)}: ${plan.consumedCalories} ${context.tr(AppStrings.kcal)}',
                 style: AppTextStyles.bodyMedium(context),
               ),
             ],

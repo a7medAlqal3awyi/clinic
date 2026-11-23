@@ -106,7 +106,7 @@ class SubscriptionPackagesScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20.r),
                     ),
                     child: Text(
-                      'Most Popular',
+                      context.tr(AppStrings.mostPopular),
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 10.sp,
@@ -135,7 +135,7 @@ class SubscriptionPackagesScreen extends StatelessWidget {
                 ),
                 SizedBox(width: 6.w),
                 Text(
-                  '/ ${pkg.durationMonths} month(s)',
+                  '/ ${pkg.durationMonths} ${context.tr(AppStrings.perMonth)}',
                   style: AppTextStyles.caption(context),
                 ),
               ],

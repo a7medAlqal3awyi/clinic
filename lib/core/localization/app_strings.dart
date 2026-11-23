@@ -182,6 +182,40 @@ class AppStrings {
   static const String logoutConfirm = 'logout_confirm';
   static const String version = 'version';
 
+  // Profile Enhancements
+  static const String profilePersonalInfo = 'profile_personal_info';
+  static const String profileQuickActions = 'profile_quick_actions';
+  static const String profileAppPreferences = 'profile_app_preferences';
+  static const String profileHeightUnit = 'profile_height_unit';
+  static const String profileWeightUnit = 'profile_weight_unit';
+  static const String profileYrsUnit = 'profile_yrs_unit';
+  static const String profileBmiLabel = 'profile_bmi_label';
+  static const String profileRemainingDays = 'profile_remaining_days';
+  static const String profileContactSupport = 'profile_contact_support';
+  static const String profileWeightGoalDiff = 'profile_weight_goal_diff';
+  static const String profilePrivacyPolicy = 'profile_privacy_policy';
+
+  // Extra common
+  static const String donePercent = 'done_percent';
+  static const String consumedWithColon = 'consumed_with_colon';
+  static const String mostPopular = 'most_popular';
+  static const String perMonth = 'per_month';
+  static const String weightKg = 'weight_kg';
+  static const String scanDate = 'scan_date';
+  static const String bodyComposition = 'body_composition';
+  static const String recommendations = 'recommendations';
+  static const String noMealsToday = 'no_meals_today';
+  static const String overall = 'overall';
+  static const String weightTrend = 'weight_trend';
+  static const String noInbodyRecorded = 'no_inbody_recorded';
+  static const String doctorFeedback = 'doctor_feedback';
+  static const String clientNotes = 'client_notes';
+  static const String submitted = 'submitted';
+  static const String addDemoScan = 'add_demo_scan';
+  static const String specialistMessagingLocked = 'specialist_messaging_locked';
+  static const String specialistMessagingLockedDesc = 'specialist_messaging_locked_desc';
+  static const String scheduled = 'scheduled';
+
   // Validation
   static const String requiredField = 'required_field';
   static const String invalidEmail = 'invalid_email';

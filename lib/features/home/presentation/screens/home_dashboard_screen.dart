@@ -411,7 +411,7 @@ class HomeDashboardScreen extends StatelessWidget {
               SizedBox(height: 12.h),
               if (meals.isEmpty)
                 Text(
-                  'No meals scheduled for today',
+                  context.tr(AppStrings.noMealsToday),
                   style: AppTextStyles.bodyMedium(context),
                 )
               else
